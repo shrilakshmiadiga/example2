@@ -17,6 +17,7 @@ public class IncrementSeq extends Thread
 		   String tName =  Thread.currentThread().getName();
 		  
 		   int tNum = Integer.parseInt(tName.substring(7,tName.length())); 
+		   int number;
 		   
 		   	while(tNum != cnt)
 		   		{
